@@ -1,1 +1,1 @@
-[Feliz aniversário, Rubi](https://clokken.github.io/rubi-aniversario)
+[Feliz aniversário, Rubi](https://rubi.gift)
