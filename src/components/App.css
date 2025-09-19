@@ -1,0 +1,27 @@
+#container {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  /* height: 100vh; */
+
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.page {
+  scroll-snap-align: start;
+  min-height: 100%;
+  padding: 10px;
+
+  position: relative;
+  width: 100vw;
+  /* min-height: 100vh; */
+  /* overflow-x: hidden; */
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  padding: 10px;
+}

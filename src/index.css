@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: white;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Delius&display=swap'); */
+
+.font-starter {
+  /* font-family: "Cherry Bomb One", system-ui; */
+  font-family: "Galada", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-main {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-gift {
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
