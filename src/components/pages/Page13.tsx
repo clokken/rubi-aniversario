@@ -1,8 +1,14 @@
 export default function Page13() {
   return (
     <div
-      className="page relative bg-gradient-to-br from-indigo-950 to-black flex flex-col
-        font-starter"
+      className="page relative flex flex-col font-starter"
+      style={{
+        backgroundImage: 'url(/space2.jpg)',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
       <div className="grow flex flex-col justify-center text-center space-y-4">
         <span className="text-2xl">Você é a estrela</span>
