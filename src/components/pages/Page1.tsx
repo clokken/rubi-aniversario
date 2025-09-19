@@ -99,7 +99,7 @@ export default function Page1() {
       >
         🎇
       </motion.div>
-      <ScrollIndicator />
+      <ScrollIndicator higher />
     </div>
   );
 }

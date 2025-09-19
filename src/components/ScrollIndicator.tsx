@@ -1,12 +1,15 @@
 import { motion } from "framer-motion";
 
-export default function ScrollIndicator() {
+export default function ScrollIndicator({ higher }: { higher?: boolean }) {
   return (
     <motion.div
-      className="absolute bottom-0 left-0 right-0 select-none pointer-events-none
+      className="absolute left-0 right-0 select-none pointer-events-none
         flex justify-center text-center pb-3"
+      style={{
+        bottom: higher ? '50px' : '0px',
+      }}
       initial={{ opacity: 0, y: 5 }}
-      whileInView={{ opacity: 0.5, y: 0 }}
+      whileInView={{ opacity: higher ? 1 : 0.5, y: 0 }}
       transition={{ duration: 0.75, delay: 1, ease: 'easeInOut' }}
       viewport={{ once: true }}
     >
@@ -14,10 +17,10 @@ export default function ScrollIndicator() {
         animate={['initial']}
         variants={{
           initial: {
-            y: [-10, 10],
+            y: [-5, 5],
             transition: {
               // delay: 0.4,
-              duration: 0.75,
+              duration: higher ? 0.5 : 0.75,
               repeat: Infinity,
               repeatType: 'reverse',
               ease: 'easeInOut',
