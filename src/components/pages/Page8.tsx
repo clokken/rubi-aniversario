@@ -4,7 +4,7 @@ import ScrollIndicator from "../ScrollIndicator";
 export default function Page8() {
   return (
     <div
-      className="page relative bg-gradient-to-br from-red-600 to-rose-700 flex flex-col
+      className="page relative bg-gradient-to-br from-rose-600 to-pink-700 flex flex-col
         font-gift"
     >
       <div className="wrapper flex flex-col">
