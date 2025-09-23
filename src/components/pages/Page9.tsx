@@ -46,10 +46,10 @@ export default function Page9() {
           className="text-xl text-center pb-10 font-main"
           initial={{ opacity: 0, y: -80 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.0, delay: 3.50, ease: 'easeInOut' }}
+          transition={{ duration: 1.0, delay: 2.50, ease: 'easeInOut' }}
           viewport={{ once: true }}
         >
-          Porque você merece apenas <span className="underline">do bom e do melhor</span>.
+          Porque você merece apenas do bom e do melhor.
         </motion.div>
       </div>
 
