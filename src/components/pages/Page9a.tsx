@@ -30,7 +30,7 @@ export default function Page9a() {
         >
           <div className="absolute inset-0 flex justify-center items-center">
             <img
-              src="/viagem-all.png"
+              src="/viagem-all3.png"
               className="max-h-full"
             />
           </div>
