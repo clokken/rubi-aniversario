@@ -21,17 +21,18 @@ export default function Page9() {
         </div>
 
         <motion.div
+          style={{
+            backgroundImage: 'url(/vale-terapia.jpg)',
+            backgroundSize: 'contain',
+            backgroundPosition: 'center center',
+            backgroundRepeat: 'no-repeat',
+          }}
           className="grow mb-4 flex justify-center items-center"
           initial={{ opacity: 0, x: -80 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.75, delay: 0.80, ease: 'easeInOut' }}
           viewport={{ once: true }}
-        >
-          <img
-            src="/vale-terapia.jpg"
-            className="w-auto h-auto max-w-full max-h-full"
-          />
-        </motion.div>
+        />
 
         <motion.div
           className="text-3xl text-center pb-4 font-main"
