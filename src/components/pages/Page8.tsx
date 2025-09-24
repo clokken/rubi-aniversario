@@ -4,6 +4,7 @@ import ScrollIndicator from "../ScrollIndicator";
 export default function Page8() {
   return (
     <div
+      id="gift-rubi"
       className="page relative bg-gradient-to-br from-rose-600 to-pink-700 flex flex-col
         font-gift"
     >

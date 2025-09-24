@@ -4,6 +4,7 @@ import ScrollIndicator from "../ScrollIndicator";
 export default function Page7() {
   return (
     <div
+      id="gift-r2d2"
       className="page relative bg-gradient-to-br from-sky-600 to-blue-700 flex flex-col
         font-gift"
     >

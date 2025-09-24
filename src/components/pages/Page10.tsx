@@ -4,6 +4,7 @@ import ScrollIndicator from "../ScrollIndicator";
 export default function Page10() {
   return (
     <div
+      id="gift-amazon"
       className="page relative bg-gradient-to-br from-yellow-600 to-amber-600 flex flex-col
         font-gift"
     >

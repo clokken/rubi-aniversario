@@ -3,6 +3,7 @@ import ScrollIndicator from "../ScrollIndicator";
 export default function Page11() {
   return (
     <div
+      id="obrigado"
       className="page relative bg-gradient-to-br from-rose-700 to-fuchsia-800 flex flex-col
         font-starter"
     >

@@ -4,6 +4,7 @@ import ScrollIndicator from "../ScrollIndicator";
 export default function Page9() {
   return (
     <div
+      id="gift-terapia"
       className="page relative bg-gradient-to-br from-cyan-600 to-indigo-500 flex flex-col
         font-gift"
     >

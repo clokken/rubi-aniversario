@@ -8,6 +8,7 @@ export default function Page1() {
 
   return (
     <div
+      id="intro-1"
       className="page relative bg-gradient-to-br from-amber-600 to-orange-700 flex flex-col
         font-starter"
     >

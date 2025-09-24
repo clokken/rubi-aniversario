@@ -40,7 +40,10 @@ export default function Page12() {
   }, []);
 
   return (
-    <div className="page bg-gradient-to-br from-emerald-600 to-teal-700">
+    <div
+      id="arduino"
+      className="page bg-gradient-to-br from-emerald-600 to-teal-700"
+    >
       <div className="wrapper flex flex-col justify-center items-center text-center space-y-4">
         <video
           ref={videoRef}

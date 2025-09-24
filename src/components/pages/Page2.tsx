@@ -14,6 +14,7 @@ export default function Page2() {
 
   return (
     <div
+      id="intro-2"
       className="page relative bg-gradient-to-br from-pink-700 to-rose-600 flex flex-col"
     >
       <div className="grow flex flex-col justify-center text-center space-y-4">
