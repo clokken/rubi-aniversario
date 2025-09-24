@@ -21,30 +21,19 @@ export default function Page7() {
         </div>
 
         <motion.div
-          className="grow mb-4"
-          style={{
-            backgroundImage: 'url(/r2d2.png)',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center center',
-            backgroundRepeat: 'no-repeat',
-          }}
+          className="grow relative mb-4"
           initial={{ opacity: 0, x: 80 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.75, delay: 0.80, ease: 'easeInOut' }}
           viewport={{ once: true }}
-        />
-
-        {/* <div className="grow flex flex-col justify-center bg-gradient-to-b from-black to-white">
-          <motion.img
-            src="/r2d2.png"
-            alt=""
-            className="max-w-full max-h-full border-2 border-white rounded"
-            initial={{ opacity: 0, x: 80 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.75, delay: 0.80, ease: 'easeInOut' }}
-            viewport={{ once: true }}
-          />
-        </div> */}
+        >
+          <div className="absolute inset-0 flex justify-center items-center">
+            <img
+              src="/r2d2.png"
+              className="max-h-full"
+            />
+          </div>
+        </motion.div>
       </div>
 
       <ScrollIndicator />

@@ -21,18 +21,19 @@ export default function Page9a() {
         </div>
 
         <motion.div
-          style={{
-            backgroundImage: 'url(/viagem-all.png)',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center center',
-            backgroundRepeat: 'no-repeat',
-          }}
-          className="grow mb-4 flex justify-center items-center"
+          className="grow relative mb-4"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.75, delay: 0.80, ease: 'easeInOut' }}
           viewport={{ once: true }}
-        />
+        >
+          <div className="absolute inset-0 flex justify-center items-center">
+            <img
+              src="/viagem-all.png"
+              className="max-h-full"
+            />
+          </div>
+        </motion.div>
 
         <motion.div
           className="text-2xl text-center pb-4 font-main"

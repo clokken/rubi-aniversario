@@ -21,18 +21,19 @@ export default function Page10() {
         </div>
 
         <motion.div
-          className="grow mb-4"
-          style={{
-            backgroundImage: 'url(/amazon.jpg)',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center center',
-            backgroundRepeat: 'no-repeat',
-          }}
+          className="grow relative mb-4"
           initial={{ opacity: 0, x: 80 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.75, delay: 0.80, ease: 'easeInOut' }}
           viewport={{ once: true }}
-        />
+        >
+          <div className="absolute inset-0 flex justify-center items-center">
+            <img
+              src="/amazon.jpg"
+              className="max-h-full"
+            />
+          </div>
+        </motion.div>
 
         <motion.div
           className="text-center text-3xl pb-10"

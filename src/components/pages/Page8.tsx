@@ -21,30 +21,19 @@ export default function Page8() {
         </div>
 
         <motion.div
-          className="grow mb-4"
-          style={{
-            backgroundImage: 'url(/rubi.jpg)',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center center',
-            backgroundRepeat: 'no-repeat',
-          }}
+          className="grow relative mb-4"
           initial={{ opacity: 0, x: -80 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.75, delay: 0.80, ease: 'easeInOut' }}
           viewport={{ once: true }}
-        />
-
-        {/* <div className="grow flex flex-col">
-          <motion.img
-            src="/rubi.jpg"
-            alt=""
-            className="max-w-full max-h-full border-2 border-white rounded"
-            initial={{ opacity: 0, x: -80 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.75, delay: 0.80, ease: 'easeInOut' }}
-            viewport={{ once: true }}
-          />
-        </div> */}
+        >
+          <div className="absolute inset-0 flex justify-center items-center">
+            <img
+              src="/rubi.jpg"
+              className="max-h-full"
+            />
+          </div>
+        </motion.div>
       </div>
 
       <ScrollIndicator />
