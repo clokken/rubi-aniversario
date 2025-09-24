@@ -41,7 +41,7 @@ export default function Page10() {
           transition={{ duration: 1.0, delay: 1.50, ease: 'easeInOut' }}
           viewport={{ once: true }}
         >
-          pra você comprar um livro bem legal!
+          pra você escolher um livro bem legal!
         </motion.div>
       </div>
 
