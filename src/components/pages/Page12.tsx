@@ -51,7 +51,7 @@ export default function Page12() {
           preload="auto"
           className="max-w-full max-h-full"
         >
-          <source src="/arduino.mp4" type="video/mp4" />
+          <source src="/arduino2.mp4" type="video/mp4" />
         </video>
       </div>
 
