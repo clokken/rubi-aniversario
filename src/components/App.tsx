@@ -15,6 +15,7 @@ import Page12 from "./pages/Page12";
 import Page13 from "./pages/Page13";
 import Page9a from "./pages/Page9a";
 import Page9b from "./pages/Page9b";
+import Page9c from "./pages/Page9c";
 
 export default function App() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -36,6 +37,7 @@ export default function App() {
       <Page9 />
       <Page9a />
       <Page9b />
+      <Page9c />
       <Page10 />
       <Page11 />
       <Page12 />
