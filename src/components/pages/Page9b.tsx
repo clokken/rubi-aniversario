@@ -5,7 +5,7 @@ export default function Page9b() {
   return (
     <div
       id="gift-hl"
-      className="page relative bg-gradient-to-br from-blue-600 to-teal-600 flex flex-col
+      className="page relative bg-gradient-to-br from-blue-600 to-emerald-600 flex flex-col
         font-gift"
     >
       <div className="wrapper flex flex-col">
@@ -30,7 +30,7 @@ export default function Page9b() {
         >
           <div className="absolute inset-0 flex justify-center items-center">
             <img
-              src="/hl.jpg"
+              src="/hl2.jpg"
               className="max-h-full"
             />
           </div>
