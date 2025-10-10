@@ -8,7 +8,7 @@ import Page5 from "./pages/Page5";
 import Page6 from "./pages/Page6";
 import Page7 from "./pages/Page7";
 import Page8 from "./pages/Page8";
-import Page9 from "./pages/Page9";
+// import Page9 from "./pages/Page9";
 import Page10 from "./pages/Page10";
 import Page11 from "./pages/Page11";
 import Page12 from "./pages/Page12";
@@ -34,7 +34,7 @@ export default function App() {
       <Page6 />
       <Page7 />
       <Page8 />
-      <Page9 />
+      {/* <Page9 /> */}
       <Page9a />
       <Page9b />
       <Page9c />
